@@ -92,3 +92,36 @@ if (1 && 0){ //false
 // alert(null && 5) //null
 // alert(undefined && "Привет") //undefined
 // alert(0 && 1000 && "Привет") //0
+
+//Цикл - это блок кода, который повторяет операцию до тех пор, пока условие верное(true)
+
+//for, while, do.. while
+
+// for (let i = 10; i; i--) {
+//     console.log(i)    
+// }
+
+// let i = 0
+// while(i < 100){
+//     console.log(i++)
+// }
+
+// let j = 1000
+// do{
+//     console.log(j++)
+// }while(j < 100)
+// alert(j) //1001
+
+//Вывести всю таблицу умножения
+
+let i = 1;
+let j = 1;
+do{
+    j = 1;
+    do{
+        console.log(`${i} * ${j} = ${i * j}`)
+        j++;
+    }while(j <= 10)
+    i++;
+    console.log()
+}while(i <= 10)

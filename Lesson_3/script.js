@@ -11,4 +11,5 @@ for(i in mas){
 
 mas.forEach((item,index,array)=>{
     console.log(`${index} = ${item}`)
+    console.log(array)
 })
